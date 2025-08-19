@@ -1,8 +1,9 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
-{double p,r,t,s;
+{double p,r,t,a,c;
 
     cout << "principal amount: " << endl;
     cin >> p;
@@ -13,8 +14,9 @@ int main()
     cout << "time: " << endl;
     cin >> t;
 
-    s= (p*r*t)/100;
+    a= p* pow((1+r/100),t);
+    c= a-p;
 
-    cout << "the simple interest is: " << s << "৳" << endl;//taka sign is copied
+    cout << "the compound interest is: " << c << "৳" << endl;//taka sign is copied
     return 0;
 }
