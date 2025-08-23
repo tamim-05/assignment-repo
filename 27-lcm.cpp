@@ -11,6 +11,6 @@ int main()
     gcd = __gcd(a,b);
     lcm = (a*b)/gcd;
 
-    cout << "LCM= " << lcm << endl;
+    cout << "LCM = " << lcm << endl;
     return 0;
 } 
