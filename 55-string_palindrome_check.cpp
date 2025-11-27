@@ -9,8 +9,8 @@ getline(cin, str);
 string rev = str;
 reverse(rev.begin(), rev.end());
 if(str == rev)
-cout << str << " is a palindrome." << endl;
+cout << str << " is a palindrome string." << endl;
 else
-cout << str << " is not a palindrome." << endl;
+cout << str << " is not a palindrome string." << endl;
 return 0;
 }
