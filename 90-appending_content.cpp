@@ -16,3 +16,4 @@ cout << "Content appended successfully." << endl;
 } else {
 cout << "Error opening files." << endl;
 }
+}
